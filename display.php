@@ -10,7 +10,9 @@ include './config/connect.php';
    <title>Display</title>
 </head>
 <body>
+  
    <table>
+       <h3 class="add"><a href="user.php">Add</a></h3>
       <tr>
          <th>ID</th>
          <th>Name</th>

@@ -38,6 +38,7 @@ if(isset($_POST['submit'])){
             <input type="text" name="course">
          </div>
          <input type="submit" name="submit">
+         <button><a href="display.php">Dislay</a></button>
       </form>
    </div>
 </body>

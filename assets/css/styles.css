@@ -113,4 +113,18 @@ button:last-child {
 
 button:last-child:hover {
     background-color: #cc0000;
+}/* Add button styling */
+h3.add a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+h3.add a:hover {
+    background-color: #45a049; /* Darker green on hover */
 }
