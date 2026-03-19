@@ -11,7 +11,19 @@ include './config/connect.php';
 <body>
    <div class="container">
       <form method="POST">
-         
+         <div class="form-label">
+            <label>Name</label>
+            <input type="text" name="name">
+         </div>
+         <div class="form-label">
+            <label>Age</label>
+            <input type="number" name="age">
+         </div>
+         <div class="form-label">
+            <label>Course</label>
+            <input type="text" name="course">
+         </div>
+         <input type="submit" name="submit">
       </form>
    </div>
 </body>
