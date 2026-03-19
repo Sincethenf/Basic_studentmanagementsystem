@@ -10,7 +10,7 @@ if(isset($_POST['submit'])){
 
    if($result){
       echo "<script>alert('successfuly inputed')</script>";
-      echo "<script>window.open('_self')</script>";
+      echo "<script>window.open('display.php','_self')</script>";
    }
 }
 ?>
@@ -24,7 +24,7 @@ if(isset($_POST['submit'])){
 </head>
 <body>
    <div class="container">
-      <form method="POST" action="insert.php">
+      <form method="POST">
          <div class="form-label">
             <label>Name</label>
             <input type="text" name="name">
